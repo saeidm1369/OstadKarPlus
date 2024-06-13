@@ -1,0 +1,6 @@
+@OstadKarPlus.Endpoins.Api_HostAddress = http://localhost:5238
+
+GET {{OstadKarPlus.Endpoins.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

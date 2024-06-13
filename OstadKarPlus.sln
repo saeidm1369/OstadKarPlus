@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5DF87F58-C566-4434-A9AF-661BD4A3B199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Endpoint", "Endpoint", "{B197FFA4-C408-4D88-BFA7-5165F8CD459A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C29BC1AC-66B0-445A-9EE2-67CE1A72A070}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OstadKarPlus.Domain.Core", "OstadKarPlus.Domain.Core\OstadKarPlus.Domain.Core.csproj", "{5B1A4833-6D8C-4357-AB6F-7D837F551C86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OstadKarPlus.Domain.Services", "OstadKarPlus.Domain.Services\OstadKarPlus.Domain.Services.csproj", "{8CBB25A0-2D42-4440-BC66-0D21AD6AC831}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OstadKarOlus.Domain.AppServices", "OstadKarOlus.Domain.AppServices\OstadKarOlus.Domain.AppServices.csproj", "{1A0A588A-F7C7-4B29-AA1F-DD06888994C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OstadKarPlus.Endpoins.Api", "OstadKarPlus.Endpoins.Api\OstadKarPlus.Endpoins.Api.csproj", "{F773C523-9B4E-4693-AE1C-9F5B7E5EC317}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseFramework", "BaseFramework", "{8EDDEB33-FDC7-4E82-B80B-B9F25BEAC32E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OstadKarPlus.Base", "OstadKarPlus.Base\OstadKarPlus.Base.csproj", "{3948A8F8-F00F-4D95-81CD-0B6F58F2DF29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OstadKarPlus.Infrastructure.DB.SqlServer.EFCore", "OstadKarPlus.Infrastructure.DB.SqlServer.EFCore\OstadKarPlus.Infrastructure.DB.SqlServer.EFCore.csproj", "{F8067CA0-218B-4158-9850-46FE9E09F98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OstadKarPlus.Infrastructure.Extensions", "OstadKarPlus.Infrastructure.Extensions\OstadKarPlus.Infrastructure.Extensions.csproj", "{B521B731-1783-4948-99DC-D1D233FB0C08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B1A4833-6D8C-4357-AB6F-7D837F551C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1A4833-6D8C-4357-AB6F-7D837F551C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1A4833-6D8C-4357-AB6F-7D837F551C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1A4833-6D8C-4357-AB6F-7D837F551C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CBB25A0-2D42-4440-BC66-0D21AD6AC831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBB25A0-2D42-4440-BC66-0D21AD6AC831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBB25A0-2D42-4440-BC66-0D21AD6AC831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBB25A0-2D42-4440-BC66-0D21AD6AC831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0A588A-F7C7-4B29-AA1F-DD06888994C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0A588A-F7C7-4B29-AA1F-DD06888994C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0A588A-F7C7-4B29-AA1F-DD06888994C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0A588A-F7C7-4B29-AA1F-DD06888994C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F773C523-9B4E-4693-AE1C-9F5B7E5EC317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F773C523-9B4E-4693-AE1C-9F5B7E5EC317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F773C523-9B4E-4693-AE1C-9F5B7E5EC317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F773C523-9B4E-4693-AE1C-9F5B7E5EC317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3948A8F8-F00F-4D95-81CD-0B6F58F2DF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3948A8F8-F00F-4D95-81CD-0B6F58F2DF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3948A8F8-F00F-4D95-81CD-0B6F58F2DF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3948A8F8-F00F-4D95-81CD-0B6F58F2DF29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8067CA0-218B-4158-9850-46FE9E09F98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8067CA0-218B-4158-9850-46FE9E09F98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8067CA0-218B-4158-9850-46FE9E09F98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8067CA0-218B-4158-9850-46FE9E09F98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B521B731-1783-4948-99DC-D1D233FB0C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B521B731-1783-4948-99DC-D1D233FB0C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B521B731-1783-4948-99DC-D1D233FB0C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B521B731-1783-4948-99DC-D1D233FB0C08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B1A4833-6D8C-4357-AB6F-7D837F551C86} = {5DF87F58-C566-4434-A9AF-661BD4A3B199}
+		{8CBB25A0-2D42-4440-BC66-0D21AD6AC831} = {5DF87F58-C566-4434-A9AF-661BD4A3B199}
+		{1A0A588A-F7C7-4B29-AA1F-DD06888994C5} = {5DF87F58-C566-4434-A9AF-661BD4A3B199}
+		{F773C523-9B4E-4693-AE1C-9F5B7E5EC317} = {B197FFA4-C408-4D88-BFA7-5165F8CD459A}
+		{3948A8F8-F00F-4D95-81CD-0B6F58F2DF29} = {8EDDEB33-FDC7-4E82-B80B-B9F25BEAC32E}
+		{F8067CA0-218B-4158-9850-46FE9E09F98E} = {C29BC1AC-66B0-445A-9EE2-67CE1A72A070}
+		{B521B731-1783-4948-99DC-D1D233FB0C08} = {C29BC1AC-66B0-445A-9EE2-67CE1A72A070}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {002C6EB0-26B2-4515-948B-277ED636843F}
+	EndGlobalSection
+EndGlobal
